@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "Admin",
+        "perm": "1"
+    },
+    "2": {
+        "name": "User",
+        "perm": "4"
+    },
+    "3": {
+        "name": "Seller",
+        "perm": "3"
+    }
+}
