@@ -11,6 +11,12 @@ function SignIn() {
     // }
 
     if (EmailPasswordCombination == localStorage.getItem('auth')) {
-        
+        console.info("Login successful.")
+        alert("Logged in as" + Email)
+        localStorage.setItem("is-signedin", true)
+        window.location.href("../home.html")
+    } else {
+        alert("Logging in failed.")
+        window.location.reload()
     }
 }
